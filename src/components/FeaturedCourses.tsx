@@ -46,7 +46,7 @@ const FeaturedCourses = () => {
                   </p>
                   <Link
                     href={`/courses/${course.slug}`}
-                    className="border border-gray-200 rounded-md mt-2 px-2 py-1"
+                    className="border border-gray-200 text-slate-200 rounded-md mt-2 px-2 py-1"
                   >
                     Learn More
                   </Link>
