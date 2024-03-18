@@ -1,5 +1,11 @@
+import { TextGenerateEffect } from "./ui/text-generate-effect";
+
 const TabContent = ({ info }: any) => {
-  return <div>{info}</div>;
+  return (
+    <>
+      <TextGenerateEffect words={info} />
+    </>
+  );
 };
 
 export default TabContent;
